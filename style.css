@@ -1,0 +1,80 @@
+@charset "utf-8";
+body  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: #FAA3C8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    -webkit-transition: all 1s ease-in-out 0.001s;
+    -o-transition: all 1s ease-in-out 0.001s;
+    transition: all 1s ease-in-out 0.001s;
+    text-align: center;
+    font-size: large;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: #FEE976;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    -webkit-transition: all 1s ease-in-out 0.001s;
+    -o-transition: all 1s ease-in-out 0.001s;
+    transition: all 1s ease-in-out 0.001s;
+    text-align: center;
+    font-size: large;
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: #C2E5FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    -webkit-transition: all 1s ease-in-out 0.001s;
+    -o-transition: all 1s ease-in-out 0.001s;
+    transition: all 1s ease-in-out 0.001s;
+    text-align: center;
+    font-size: large;
+}
+.box1:hover {
+    background-color: #BDFFC4;
+    transform: translateX(-30px);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    -webkit-box-shadow: 2px 2px 12px #3A694A;
+    box-shadow: 2px 2px 12px #3A694A;
+    font-size: x-large;
+}
+.box2:hover {
+    background-color: #BDEFC4;
+    transform: rotate(10deg) scale(1.05);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    z-index: 1000;
+    -webkit-box-shadow: 2px 2px 12px #3A694A;
+    box-shadow: 2px 2px 12px #3A694A;
+    font-size: x-large;
+}
+.box3:hover {
+    background-color: #BDEFC4;
+    transform: scale(1.5);
+    text-shadow: 0px 0px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    -webkit-box-shadow: 2px 2px 12px #3A694A;
+    box-shadow: 2px 2px 12px #3A694A;
+    font-size: x-large;
+}
+
